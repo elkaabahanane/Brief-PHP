@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+   display: flex;
+   width: 100%;
+   background-color: #03396c;
+
+}
+.section-header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 150px 30px;
+    line-height: 60px;
+}
+.header-image{
+    background-image: url(food.jpg);
+    background-repeat :no-repeat;
+    background-size: cover;
+    height: 650px;
+    width:45%;
+}
+.titre1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.paragraph{
+    font-size: 15px;
+}
+.button{
+    padding: 20px 50px;
+    border-radius: 80px;
+    border: none;
+}
+.button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.parent {
+    display: flex;
+}
