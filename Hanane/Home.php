@@ -96,31 +96,27 @@ if (empty($nom)|| empty($prenom)|| empty($telephone) || empty($adresse)|| empty(
     $body .= "Telephone:" .$telephone."\r\n";
     mail($to,$subject,$body);
     echo "<script type='text/javascript'>alert('Your message sent successfly')</script>";
-
 }
-
 }
-
 ?>
-    <form method="post" action="email.php">
-    </div>
-        <div><label for="Nom" name="nom">Nom</label>
-        <input type="text">
+    <form method="post" action="">
+        <h2 class="titre2">Commander maintenant votre repas</h2>
+        <div class="espace"><label for="Nom" name="nom">Nom</label>
+        <input type="text" class="input">
     </div>
     <div><label for="Prenom" name="prenom">Prénom</label>
-        <input type="text">
+        <input type="text" class="input">
     </div>
-    <div><label for="Telephone" name="telephone">Télephone</label>
-        <input type="number">
+    <div class="espace"><label for="Telephone" name="telephone">Télephone</label>
+        <input type="number" class="input">
     </div>
-    <div><label for="Adresse" name="adresse">Adresse</label>
-        <input type="text">
+    <div class="espace"><label for="Adresse" name="adresse">Adresse</label>
+        <input type="text" class="input">
     </div>
-    <div><label for="email" name="email">Email</label>
-        <input type="email">
+    <div class="espace"><label for="email" name="email">Email</label>
+        <input type="email" class="input">
     </div>
     <button type="submit" name="submit">Commander</button>
     </form>
 </body>
-
 </html>

@@ -38,7 +38,16 @@
     border: 1px solid white;
     color: white;
 }
+.titre2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    font-size: 30px;
+    padding: 20px;
 
-.parent {
-    display: flex;
+}
+.input{
+    width: 500px;
+}
+.espace{
+    margin-bottom: 10px;
 }
